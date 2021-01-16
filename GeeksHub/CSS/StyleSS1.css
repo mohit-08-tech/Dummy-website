@@ -1,0 +1,162 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.topnav {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    background-color: #4CAF50;
+    float: right;
+}
+
+
+.container {
+    margin-left: 0.5%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.img-box {
+    width: 100%;
+    height: 250px;
+    border: 3px solid #333;
+    object-fit: cover;
+    display: block;
+}
+
+    .img-box img {
+        display: block;
+        object-fit: cover;
+    }
+/*.wrapper {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -20px; 
+}
+
+.push {
+    height: 25px; 
+}*/
+
+/*.footer {
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    margin: auto;
+    bottom: 0px;
+    text-align: center;
+}*/
+
+.mycss {
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+    height: 25px;
+    width: 180px;
+    margin: auto;
+    margin-left: 87%;
+    bottom: 0px;
+    text-align: right;
+}
+
+section {
+    font-style: italic;
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: Calibri;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+footer {
+    /*margin: 0 auto -20px;*/
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+    footer a {
+        text-decoration: none;
+        margin: 1%;
+        text-align: center;
+        color: white;
+    }
